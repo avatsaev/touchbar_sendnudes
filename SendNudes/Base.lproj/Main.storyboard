@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11134"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaDFRPlugin" version="7104"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="the Touch Bar" message="Use a version of macOS with Touch Bar support." minToolsVersion="8.1" minSystemVersion="10.12.1" requiredIntegratedClassName="NSTouchBar"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -653,7 +657,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="SendNudes" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
@@ -666,8 +670,153 @@
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
-                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
                     </window>
+                    <touchBar key="touchBar" id="QfD-wG-fDe">
+                        <touchBarItems>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="s6f-Z3-wSL"/>
+                            <touchBarItem id="Wrs-vy-Ji8">
+                                <viewController key="viewController" id="xjO-af-Vpf">
+                                    <textField key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RiH-1Y-btt">
+                                        <rect key="frame" x="0.0" y="0.0" width="17" height="24"/>
+                                        <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="S" drawsBackground="YES" id="uOI-Fr-8d8">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" red="0.32154256105422974" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                                <size key="designTimeSize" width="17" height="24"/>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="upp-zb-l9N"/>
+                            <touchBarItem id="5Ix-iz-ek8">
+                                <viewController key="viewController" id="bSH-5k-JLr">
+                                    <textField key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e8b-27-pl4">
+                                        <rect key="frame" x="0.0" y="0.0" width="17" height="24"/>
+                                        <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="E" drawsBackground="YES" id="EXg-LE-lP3">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" red="0.91249996423721313" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                                <size key="designTimeSize" width="17" height="24"/>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="haY-0Y-YL1"/>
+                            <touchBarItem id="ZB0-FG-Zeh">
+                                <viewController key="viewController" id="BKP-FK-SUY">
+                                    <textField key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aS1-I2-HlW">
+                                        <rect key="frame" x="0.0" y="0.0" width="19" height="24"/>
+                                        <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="N" drawsBackground="YES" id="BTe-fw-Rhp">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" red="1" green="0.60806280374526978" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                                <size key="designTimeSize" width="19" height="24"/>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="y6v-Ye-Kjs"/>
+                            <touchBarItem id="cG6-Ip-Apj">
+                                <viewController key="viewController" id="LcX-te-ZoZ">
+                                    <textField key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sG7-e8-Pmb">
+                                        <rect key="frame" x="0.0" y="0.0" width="18" height="24"/>
+                                        <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="D" drawsBackground="YES" id="r6f-c0-5vq">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                                <size key="designTimeSize" width="18" height="24"/>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="GVI-1f-udS"/>
+                            <touchBarItem id="MZh-FP-iKI">
+                                <viewController key="viewController" id="HXM-oJ-uU9">
+                                    <textField key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="F3e-I3-4Gv">
+                                        <rect key="frame" x="0.0" y="0.0" width="25" height="31"/>
+                                        <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="❤️" drawsBackground="YES" id="RGh-nP-p4t">
+                                            <font key="font" size="13" name="AppleColorEmoji"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                                <size key="designTimeSize" width="25" height="31"/>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="64P-pf-exy"/>
+                            <touchBarItem id="ZWg-Wm-CxN">
+                                <viewController key="viewController" id="84Y-Ib-oK6">
+                                    <textField key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MVB-JN-v86">
+                                        <rect key="frame" x="0.0" y="0.0" width="19" height="24"/>
+                                        <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="N" drawsBackground="YES" id="2ul-3T-7Hn">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" red="1" green="0.0" blue="0.84411674737930298" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                                <size key="designTimeSize" width="19" height="24"/>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="9w9-cM-LTm"/>
+                            <touchBarItem id="icz-ls-kjn">
+                                <viewController key="viewController" id="ygh-kK-2v0">
+                                    <textField key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kGw-3n-emK">
+                                        <rect key="frame" x="0.0" y="0.0" width="19" height="24"/>
+                                        <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="U" drawsBackground="YES" id="m2T-xz-jK9">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" red="0.76675146818161011" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                                <size key="designTimeSize" width="19" height="24"/>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="dZv-DP-NWQ"/>
+                            <touchBarItem id="g4D-D6-cmf">
+                                <viewController key="viewController" id="aWf-Qz-hd9">
+                                    <textField key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FGJ-Pc-Jat">
+                                        <rect key="frame" x="0.0" y="0.0" width="18" height="24"/>
+                                        <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="D" drawsBackground="YES" id="COi-3P-m4v">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" red="0.0" green="0.45004880428314209" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                                <size key="designTimeSize" width="18" height="24"/>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="Ywa-pd-Wea"/>
+                            <touchBarItem id="wxy-EG-Ug7">
+                                <viewController key="viewController" id="AT7-ln-0pu">
+                                    <textField key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0Mg-ws-yxZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="17" height="24"/>
+                                        <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="E" drawsBackground="YES" id="FVv-53-xSq">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" red="0.0" green="1" blue="0.98683816194534302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                                <size key="designTimeSize" width="17" height="24"/>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="cRK-he-Ajc"/>
+                            <touchBarItem id="ToJ-HE-5Lu">
+                                <viewController key="viewController" id="5wk-Sj-ZjY">
+                                    <textField key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xP2-rk-2Z2">
+                                        <rect key="frame" x="0.0" y="0.0" width="17" height="24"/>
+                                        <textFieldCell key="cell" borderStyle="bezel" alignment="left" title="S" drawsBackground="YES" id="O9Y-5E-j5O">
+                                            <font key="font" usesAppearanceFont="YES"/>
+                                            <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </viewController>
+                                <size key="designTimeSize" width="17" height="24"/>
+                            </touchBarItem>
+                            <touchBarSpacerItem identifier="NSTouchBarItemIdentifierFlexibleSpace" id="dn7-hy-lF0"/>
+                        </touchBarItems>
+                    </touchBar>
                     <connections>
                         <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
                     </connections>
@@ -679,7 +828,7 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="SendNudes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
