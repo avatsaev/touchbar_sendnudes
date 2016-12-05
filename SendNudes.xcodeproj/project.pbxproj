@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3D437161DF6071C00B59B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D437151DF6071C00B59B1F /* AppDelegate.swift */; };
+		A3D437181DF6071C00B59B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D437171DF6071C00B59B1F /* ViewController.swift */; };
+		A3D4371A1DF6071C00B59B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D437191DF6071C00B59B1F /* Assets.xcassets */; };
+		A3D4371D1DF6071C00B59B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D4371B1DF6071C00B59B1F /* Main.storyboard */; };
+		A3D437281DF6071C00B59B1F /* SendNudesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D437271DF6071C00B59B1F /* SendNudesTests.swift */; };
+		A3D437331DF6071C00B59B1F /* SendNudesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D437321DF6071C00B59B1F /* SendNudesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3D437241DF6071C00B59B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D4370A1DF6071C00B59B1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D437111DF6071C00B59B1F;
+			remoteInfo = SendNudes;
+		};
+		A3D4372F1DF6071C00B59B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D4370A1DF6071C00B59B1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D437111DF6071C00B59B1F;
+			remoteInfo = SendNudes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3D437121DF6071C00B59B1F /* SendNudes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendNudes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D437151DF6071C00B59B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3D437171DF6071C00B59B1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3D437191DF6071C00B59B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3D4371C1DF6071C00B59B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3D4371E1DF6071C00B59B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D437231DF6071C00B59B1F /* SendNudesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendNudesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D437271DF6071C00B59B1F /* SendNudesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendNudesTests.swift; sourceTree = "<group>"; };
+		A3D437291DF6071C00B59B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D4372E1DF6071C00B59B1F /* SendNudesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendNudesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D437321DF6071C00B59B1F /* SendNudesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendNudesUITests.swift; sourceTree = "<group>"; };
+		A3D437341DF6071C00B59B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3D4370F1DF6071C00B59B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D437201DF6071C00B59B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4372B1DF6071C00B59B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D437091DF6071C00B59B1F = {
+			isa = PBXGroup;
+			children = (
+				A3D437141DF6071C00B59B1F /* SendNudes */,
+				A3D437261DF6071C00B59B1F /* SendNudesTests */,
+				A3D437311DF6071C00B59B1F /* SendNudesUITests */,
+				A3D437131DF6071C00B59B1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3D437131DF6071C00B59B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3D437121DF6071C00B59B1F /* SendNudes.app */,
+				A3D437231DF6071C00B59B1F /* SendNudesTests.xctest */,
+				A3D4372E1DF6071C00B59B1F /* SendNudesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D437141DF6071C00B59B1F /* SendNudes */ = {
+			isa = PBXGroup;
+			children = (
+				A3D437151DF6071C00B59B1F /* AppDelegate.swift */,
+				A3D437171DF6071C00B59B1F /* ViewController.swift */,
+				A3D437191DF6071C00B59B1F /* Assets.xcassets */,
+				A3D4371B1DF6071C00B59B1F /* Main.storyboard */,
+				A3D4371E1DF6071C00B59B1F /* Info.plist */,
+			);
+			path = SendNudes;
+			sourceTree = "<group>";
+		};
+		A3D437261DF6071C00B59B1F /* SendNudesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D437271DF6071C00B59B1F /* SendNudesTests.swift */,
+				A3D437291DF6071C00B59B1F /* Info.plist */,
+			);
+			path = SendNudesTests;
+			sourceTree = "<group>";
+		};
+		A3D437311DF6071C00B59B1F /* SendNudesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D437321DF6071C00B59B1F /* SendNudesUITests.swift */,
+				A3D437341DF6071C00B59B1F /* Info.plist */,
+			);
+			path = SendNudesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3D437111DF6071C00B59B1F /* SendNudes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D437371DF6071C00B59B1F /* Build configuration list for PBXNativeTarget "SendNudes" */;
+			buildPhases = (
+				A3D4370E1DF6071C00B59B1F /* Sources */,
+				A3D4370F1DF6071C00B59B1F /* Frameworks */,
+				A3D437101DF6071C00B59B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendNudes;
+			productName = SendNudes;
+			productReference = A3D437121DF6071C00B59B1F /* SendNudes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3D437221DF6071C00B59B1F /* SendNudesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D4373A1DF6071C00B59B1F /* Build configuration list for PBXNativeTarget "SendNudesTests" */;
+			buildPhases = (
+				A3D4371F1DF6071C00B59B1F /* Sources */,
+				A3D437201DF6071C00B59B1F /* Frameworks */,
+				A3D437211DF6071C00B59B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D437251DF6071C00B59B1F /* PBXTargetDependency */,
+			);
+			name = SendNudesTests;
+			productName = SendNudesTests;
+			productReference = A3D437231DF6071C00B59B1F /* SendNudesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3D4372D1DF6071C00B59B1F /* SendNudesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D4373D1DF6071C00B59B1F /* Build configuration list for PBXNativeTarget "SendNudesUITests" */;
+			buildPhases = (
+				A3D4372A1DF6071C00B59B1F /* Sources */,
+				A3D4372B1DF6071C00B59B1F /* Frameworks */,
+				A3D4372C1DF6071C00B59B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D437301DF6071C00B59B1F /* PBXTargetDependency */,
+			);
+			name = SendNudesUITests;
+			productName = SendNudesUITests;
+			productReference = A3D4372E1DF6071C00B59B1F /* SendNudesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3D4370A1DF6071C00B59B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Aslan Vatsaev";
+				TargetAttributes = {
+					A3D437111DF6071C00B59B1F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9K2GY8824J;
+						ProvisioningStyle = Automatic;
+					};
+					A3D437221DF6071C00B59B1F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9K2GY8824J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3D437111DF6071C00B59B1F;
+					};
+					A3D4372D1DF6071C00B59B1F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9K2GY8824J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3D437111DF6071C00B59B1F;
+					};
+				};
+			};
+			buildConfigurationList = A3D4370D1DF6071C00B59B1F /* Build configuration list for PBXProject "SendNudes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3D437091DF6071C00B59B1F;
+			productRefGroup = A3D437131DF6071C00B59B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3D437111DF6071C00B59B1F /* SendNudes */,
+				A3D437221DF6071C00B59B1F /* SendNudesTests */,
+				A3D4372D1DF6071C00B59B1F /* SendNudesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3D437101DF6071C00B59B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D4371A1DF6071C00B59B1F /* Assets.xcassets in Resources */,
+				A3D4371D1DF6071C00B59B1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D437211DF6071C00B59B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4372C1DF6071C00B59B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3D4370E1DF6071C00B59B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D437181DF6071C00B59B1F /* ViewController.swift in Sources */,
+				A3D437161DF6071C00B59B1F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4371F1DF6071C00B59B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D437281DF6071C00B59B1F /* SendNudesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D4372A1DF6071C00B59B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D437331DF6071C00B59B1F /* SendNudesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3D437251DF6071C00B59B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D437111DF6071C00B59B1F /* SendNudes */;
+			targetProxy = A3D437241DF6071C00B59B1F /* PBXContainerItemProxy */;
+		};
+		A3D437301DF6071C00B59B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D437111DF6071C00B59B1F /* SendNudes */;
+			targetProxy = A3D4372F1DF6071C00B59B1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3D4371B1DF6071C00B59B1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D4371C1DF6071C00B59B1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3D437351DF6071C00B59B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3D437361DF6071C00B59B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A3D437381DF6071C00B59B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9K2GY8824J;
+				INFOPLIST_FILE = SendNudes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaev.SendNudes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3D437391DF6071C00B59B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9K2GY8824J;
+				INFOPLIST_FILE = SendNudes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaev.SendNudes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A3D4373B1DF6071C00B59B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9K2GY8824J;
+				INFOPLIST_FILE = SendNudesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaev.SendNudesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendNudes.app/Contents/MacOS/SendNudes";
+			};
+			name = Debug;
+		};
+		A3D4373C1DF6071C00B59B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9K2GY8824J;
+				INFOPLIST_FILE = SendNudesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaev.SendNudesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendNudes.app/Contents/MacOS/SendNudes";
+			};
+			name = Release;
+		};
+		A3D4373E1DF6071C00B59B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9K2GY8824J;
+				INFOPLIST_FILE = SendNudesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaev.SendNudesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SendNudes;
+			};
+			name = Debug;
+		};
+		A3D4373F1DF6071C00B59B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9K2GY8824J;
+				INFOPLIST_FILE = SendNudesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vatsaev.SendNudesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SendNudes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3D4370D1DF6071C00B59B1F /* Build configuration list for PBXProject "SendNudes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D437351DF6071C00B59B1F /* Debug */,
+				A3D437361DF6071C00B59B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D437371DF6071C00B59B1F /* Build configuration list for PBXNativeTarget "SendNudes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D437381DF6071C00B59B1F /* Debug */,
+				A3D437391DF6071C00B59B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3D4373A1DF6071C00B59B1F /* Build configuration list for PBXNativeTarget "SendNudesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D4373B1DF6071C00B59B1F /* Debug */,
+				A3D4373C1DF6071C00B59B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3D4373D1DF6071C00B59B1F /* Build configuration list for PBXNativeTarget "SendNudesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D4373E1DF6071C00B59B1F /* Debug */,
+				A3D4373F1DF6071C00B59B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3D4370A1DF6071C00B59B1F /* Project object */;
+}
